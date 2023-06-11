@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "RotateLinkedList",
+            "request": "launch",
+            "mainClass": "com.github.leetcode.linkedList.RotateLinkedList.RotateLinkedList"
+        },
+        {
             "name": "Launch Package",
             "type": "go",
             "request": "launch",
