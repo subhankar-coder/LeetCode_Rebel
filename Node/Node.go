@@ -25,7 +25,7 @@ func (l *LinkedList) Insert(val int) {
 func (L *LinkedList) Display() {
 	if L != nil {
 		for L != nil {
-			println(L.Val)
+			print(L.Val," ")
 			L = L.Next
 		}
 	}
