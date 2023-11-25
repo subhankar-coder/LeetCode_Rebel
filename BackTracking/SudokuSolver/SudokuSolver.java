@@ -66,21 +66,21 @@ public class SudokuSolver {
             if(!isFilled)
                     break;
         }
-                if(isFilled){
+        if(isFilled){
+            return true;
+        }
+        
+        for(int num=1;num<=N;num++){
+            if(isSafe(sudoku,row,col,num)){
+                sudoku[row][col]=num;
+                if(solve(sudoku)){
                     return true;
+                }else{
+                    sudoku[row][col]=0;
                 }
-                
-                for(int num=1;num<=N;num++){
-                    if(isSafe(sudoku,row,col,num)){
-                        sudoku[row][col]=num;
-                        if(solve(sudoku)){
-                            return true;
-                        }else{
-                            sudoku[row][col]=0;
-                        }
-                    }
+            }
 
-                }
+        }
 
         return false;
     }
