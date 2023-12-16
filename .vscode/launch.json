@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "ZigZagMatrix",
+            "request": "launch",
+            "mainClass": "Matrix.ZigZagMatrix.ZigZagMatrix",
+            "projectName": "LeetCode_1b72ca35"
+        },
+        {
             "name": "Launch Package",
             "type": "go",
             "request": "launch",
