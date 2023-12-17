@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PointRightTree",
+            "request": "launch",
+            "mainClass": "PointRightTree.PointRightTree",
+            "projectName": "LeetCode_Rebel_989b05c6"
+        },
+        {
+            "type": "java",
+            "name": "TreePostInOrder",
+            "request": "launch",
+            "mainClass": "TreePostInOrder.TreePostInOrder",
+            "projectName": "LeetCode_Rebel_989b05c6"
+        },
+        {
+            "type": "java",
+            "name": "TreeFromInPreOreder",
+            "request": "launch",
+            "mainClass": "TreeFromPre_In_Order.TreeFromInPreOreder",
+            "projectName": "LeetCode_Rebel_989b05c6"
+        },
+        {
+            "type": "java",
+            "name": "InvertBT",
+            "request": "launch",
+            "mainClass": "InvertBT.InvertBT",
+            "projectName": "LeetCode_Rebel_989b05c6"
+        },
+        {
+            "type": "java",
             "name": "PathSum",
             "request": "launch",
             "mainClass": "PathSum.PathSum",
