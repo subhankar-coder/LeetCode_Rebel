@@ -1,5 +1,7 @@
 package SameTree;
 
+import TreeNode.TreeNode;
+
 public class SameTree{
 	public static void main(String ... args){
 
