@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SymmetricTree",
+            "request": "launch",
+            "mainClass": "SymmetricTree.SymmetricTree",
+            "projectName": "LeetCode_1b72ca35"
+        },
+        {
+            "type": "java",
+            "name": "InvertBT",
+            "request": "launch",
+            "mainClass": "InvertBT.InvertBT",
+            "projectName": "LeetCode_1b72ca35"
+        },
+        {
+            "type": "java",
             "name": "ZigZagMatrix",
             "request": "launch",
             "mainClass": "Matrix.ZigZagMatrix.ZigZagMatrix",
