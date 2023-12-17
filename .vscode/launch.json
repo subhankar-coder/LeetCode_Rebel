@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PathSum",
+            "request": "launch",
+            "mainClass": "PathSum.PathSum",
+            "projectName": "LeetCode_1b72ca35"
+        },
+        {
+            "type": "java",
             "name": "SymmetricTree",
             "request": "launch",
             "mainClass": "SymmetricTree.SymmetricTree",
