@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximumPathSum",
+            "request": "launch",
+            "mainClass": "BTMaximumPathSum.MaximumPathSum",
+            "projectName": "LeetCode_Rebel_989b05c6"
+        },
+        {
+            "type": "java",
             "name": "PointRightTree",
             "request": "launch",
             "mainClass": "PointRightTree.PointRightTree",
