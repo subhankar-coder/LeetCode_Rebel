@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryTreeZigZagOrder",
+            "request": "launch",
+            "mainClass": "BTZigzagOrder.BinaryTreeZigZagOrder",
+            "projectName": "Programming_2024_b8eb1e5d"
+        },
+        {
+            "type": "java",
             "name": "AvarageNodeValBST",
             "request": "launch",
             "mainClass": "AverageNodeVal.AvarageNodeValBST",
