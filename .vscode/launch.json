@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberOfIslands",
+            "request": "launch",
+            "mainClass": "NumberOfIslands.NumberOfIslands",
+            "projectName": "Programming_2024_b8eb1e5d"
+        },
+        {
+            "type": "java",
             "name": "KthSmallestBST",
             "request": "launch",
             "mainClass": "KthSmallestBST.KthSmallestBST",
