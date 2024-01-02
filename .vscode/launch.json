@@ -4,117 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+          
         {
             "type": "java",
-            "name": "SurroundedRegion",
+            "name": "SnakeAndLadders",
             "request": "launch",
-            "mainClass": "SurroundedRegion.SurroundedRegion",
+            "mainClass": "${file}",
             "projectName": "Programming_2024_b8eb1e5d"
-        },
-        {
-            "type": "java",
-            "name": "NumberOfIslands",
-            "request": "launch",
-            "mainClass": "NumberOfIslands.NumberOfIslands",
-            "projectName": "Programming_2024_b8eb1e5d"
-        },
-        {
-            "type": "java",
-            "name": "KthSmallestBST",
-            "request": "launch",
-            "mainClass": "KthSmallestBST.KthSmallestBST",
-            "projectName": "Programming_2024_b8eb1e5d"
-        },
-        {
-            "type": "java",
-            "name": "BinaryTreeZigZagOrder",
-            "request": "launch",
-            "mainClass": "BTZigzagOrder.BinaryTreeZigZagOrder",
-            "projectName": "Programming_2024_b8eb1e5d"
-        },
-        {
-            "type": "java",
-            "name": "AvarageNodeValBST",
-            "request": "launch",
-            "mainClass": "AverageNodeVal.AvarageNodeValBST",
-            "projectName": "Programming_2024_b8eb1e5d"
-        },
-        {
-            "type": "java",
-            "name": "IsValidBST",
-            "request": "launch",
-            "mainClass": "IsValidBST.IsValidBST",
-            "projectName": "Programming_2024_b8eb1e5d"
-        },
-        {
-            "type": "java",
-            "name": "LCABT",
-            "request": "launch",
-            "mainClass": "LCABinaryTree.LCABT",
-            "projectName": "LeetCode_Rebel_989b05c6"
-        },
-        {
-            "type": "java",
-            "name": "MaximumPathSum",
-            "request": "launch",
-            "mainClass": "BTMaximumPathSum.MaximumPathSum",
-            "projectName": "LeetCode_Rebel_989b05c6"
-        },
-        {
-            "type": "java",
-            "name": "PointRightTree",
-            "request": "launch",
-            "mainClass": "PointRightTree.PointRightTree",
-            "projectName": "LeetCode_Rebel_989b05c6"
-        },
-        {
-            "type": "java",
-            "name": "TreePostInOrder",
-            "request": "launch",
-            "mainClass": "TreePostInOrder.TreePostInOrder",
-            "projectName": "LeetCode_Rebel_989b05c6"
-        },
-        {
-            "type": "java",
-            "name": "TreeFromInPreOreder",
-            "request": "launch",
-            "mainClass": "TreeFromPre_In_Order.TreeFromInPreOreder",
-            "projectName": "LeetCode_Rebel_989b05c6"
-        },
-        {
-            "type": "java",
-            "name": "InvertBT",
-            "request": "launch",
-            "mainClass": "InvertBT.InvertBT",
-            "projectName": "LeetCode_Rebel_989b05c6"
-        },
-        {
-            "type": "java",
-            "name": "PathSum",
-            "request": "launch",
-            "mainClass": "PathSum.PathSum",
-            "projectName": "LeetCode_1b72ca35"
-        },
-        {
-            "type": "java",
-            "name": "SymmetricTree",
-            "request": "launch",
-            "mainClass": "SymmetricTree.SymmetricTree",
-            "projectName": "LeetCode_1b72ca35"
-        },
-        {
-            "type": "java",
-            "name": "InvertBT",
-            "request": "launch",
-            "mainClass": "InvertBT.InvertBT",
-            "projectName": "LeetCode_1b72ca35"
-        },
-        {
-            "type": "java",
-            "name": "ZigZagMatrix",
-            "request": "launch",
-            "mainClass": "Matrix.ZigZagMatrix.ZigZagMatrix",
-            "projectName": "LeetCode_1b72ca35"
         },
         {
             "name": "Launch Package",
@@ -122,6 +18,18 @@
             "request": "launch",
             "mode": "auto",
             "program": "${file}"
-        }
+        },
+        {
+            
+            "name":"Ts Debug", 
+             "type": "node",
+             "request": "launch",
+             "program": "${file}",
+             "preLaunchTask": "tsc: build - tsconfig.json",
+             "outFiles": ["${workspaceFolder}/out/**/*.js"]
+         
+         }
+       
+          
     ]
 }
