@@ -8,11 +8,11 @@ function rob(nums) {
     for (var i = 2; i < n; i++) {
         var max = Number.MIN_VALUE;
         for (var j = 0; j < i - 1; j++) {
-            max = Math.max(max, nums[j]);
+            max = Math.max(max, dp[j]);
         }
         dp[i] = max + nums[i];
     }
-    return dp[n - 1];
+    return Math.max(dp[n - 2], dp[n - 1]);
 }
 ;
 var nums = [2, 7, 9, 3, 1];
