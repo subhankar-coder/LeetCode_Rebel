@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestIncreasingSubSeq",
+            "request": "launch",
+            "mainClass": "LongestIncSubSeq.LongestIncreasingSubSeq",
+            "projectName": "Programming_2024_aaba2f86"
+        },
+        {
+            "type": "java",
+            "name": "CoinChange",
+            "request": "launch",
+            "mainClass": "DP.CoinChange.CoinChange",
+            "projectName": "Programming_2024_aaba2f86"
+        },
+        {
+            "type": "java",
             "name": "PhoneLetterComb",
             "request": "launch",
             "mainClass": "BackTracking.PhoneLetterComb.PhoneLetterComb",
