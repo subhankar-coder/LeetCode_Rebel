@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PhoneLetterComb",
+            "request": "launch",
+            "mainClass": "BackTracking.PhoneLetterComb.PhoneLetterComb",
+            "projectName": "Programming_2024_aaba2f86"
+        },
+        {
+            "type": "java",
             "name": "WordSearchIITrie",
             "request": "launch",
             "mainClass": "WordSearchII.WordSearchIITrie",
