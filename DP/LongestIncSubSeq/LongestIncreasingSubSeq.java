@@ -1,4 +1,4 @@
-package LongestIncSubSeq;
+package DP.LongestIncSubSeq;
 
 public class LongestIncreasingSubSeq {
 

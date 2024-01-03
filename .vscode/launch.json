@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Combinations",
+            "request": "launch",
+            "mainClass": "BackTracking.Combinations.Combinations",
+            "projectName": "Programming_2024_aaba2f86"
+        },
+        {
+            "type": "java",
             "name": "LongestIncreasingSubSeq",
             "request": "launch",
             "mainClass": "LongestIncSubSeq.LongestIncreasingSubSeq",
