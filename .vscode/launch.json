@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "Sort.QuickSort.QuickSort",
+            "projectName": "Code_fc5bc0cd"
+        },
+        {
+            "type": "java",
+            "name": "CombinationalSum",
+            "request": "launch",
+            "mainClass": "BackTracking.CombSum.CombinationalSum",
+            "projectName": "Code_fc5bc0cd"
+        },
+        {
+            "type": "java",
             "name": "Permutation",
             "request": "launch",
             "mainClass": "BackTracking.Permutation.Permutation",
