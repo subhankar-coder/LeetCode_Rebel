@@ -6,45 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Combinations",
+            "name": "Permutation",
             "request": "launch",
-            "mainClass": "BackTracking.Combinations.Combinations",
-            "projectName": "Programming_2024_aaba2f86"
-        },
-        {
-            "type": "java",
-            "name": "LongestIncreasingSubSeq",
-            "request": "launch",
-            "mainClass": "LongestIncSubSeq.LongestIncreasingSubSeq",
-            "projectName": "Programming_2024_aaba2f86"
-        },
-        {
-            "type": "java",
-            "name": "CoinChange",
-            "request": "launch",
-            "mainClass": "DP.CoinChange.CoinChange",
-            "projectName": "Programming_2024_aaba2f86"
-        },
-        {
-            "type": "java",
-            "name": "PhoneLetterComb",
-            "request": "launch",
-            "mainClass": "BackTracking.PhoneLetterComb.PhoneLetterComb",
-            "projectName": "Programming_2024_aaba2f86"
-        },
-        {
-            "type": "java",
-            "name": "WordSearchIITrie",
-            "request": "launch",
-            "mainClass": "WordSearchII.WordSearchIITrie",
-            "projectName": "Programming_2024_aaba2f86"
-        },
-        {
-            "type": "java",
-            "name": "WordSearchII",
-            "request": "launch",
-            "mainClass": "WordSearchII.WordSearchII",
-            "projectName": "Programming_2024_aaba2f86"
+            "mainClass": "BackTracking.Permutation.Permutation",
+            "projectName": "Code_fc5bc0cd"
         },
         {
             "type": "java",
