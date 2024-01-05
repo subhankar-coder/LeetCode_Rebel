@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nQueen",
+            "request": "launch",
+            "mainClass": "BackTracking.NQueen.nQueen",
+            "projectName": "Code_fc5bc0cd"
+        },
+        {
+            "type": "java",
+            "name": "NQueenII",
+            "request": "launch",
+            "mainClass": "BackTracking.NQueenII.NQueenII",
+            "projectName": "Code_fc5bc0cd"
+        },
+        {
+            "type": "java",
             "name": "QuickSort",
             "request": "launch",
             "mainClass": "Sort.QuickSort.QuickSort",
