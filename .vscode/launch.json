@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WordSearch",
+            "request": "launch",
+            "mainClass": "BackTracking.WordSearch.WordSearch",
+            "projectName": "Code_fc5bc0cd"
+        },
+        {
+            "type": "java",
+            "name": "GenerateParentheses",
+            "request": "launch",
+            "mainClass": "BackTracking.GenerateParentheses.GenerateParentheses",
+            "projectName": "Code_fc5bc0cd"
+        },
+        {
+            "type": "java",
             "name": "nQueen",
             "request": "launch",
             "mainClass": "BackTracking.NQueen.nQueen",
