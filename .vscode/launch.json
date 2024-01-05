@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "DP.Triangle.Triangle",
+            "projectName": "Code_fc5bc0cd"
+        },
+        {
+            "type": "java",
             "name": "WordSearch",
             "request": "launch",
             "mainClass": "BackTracking.WordSearch.WordSearch",
