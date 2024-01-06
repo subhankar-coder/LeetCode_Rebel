@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinPathSumDP",
+            "request": "launch",
+            "mainClass": "DP.MinSumPath.MinPathSumDP",
+            "projectName": "Programming_2024_b8eb1e5d"
+        },
+        {
+            "type": "java",
+            "name": "MinSumPath",
+            "request": "launch",
+            "mainClass": "DP.MinSumPath.MinSumPath",
+            "projectName": "Programming_2024_b8eb1e5d"
+        },
+        {
+            "type": "java",
             "name": "TriangleSumPathDP",
             "request": "launch",
             "mainClass": "DP.Triangle.TriangleSumPathDP",
