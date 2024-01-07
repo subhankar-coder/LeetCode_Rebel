@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UniquePathsDp",
+            "request": "launch",
+            "mainClass": "DP.uniquePaths.UniquePathsDp",
+            "projectName": "Programming_2024_b8eb1e5d"
+        },
+        {
+            "type": "java",
+            "name": "UniquePaths",
+            "request": "launch",
+            "mainClass": "DP.uniquePaths.UniquePaths",
+            "projectName": "Programming_2024_b8eb1e5d"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "Sort.MergeSort.MergeSort",
+            "projectName": "Programming_2024_b8eb1e5d"
+        },
+        {
+            "type": "java",
             "name": "BSTFromArray",
             "request": "launch",
             "mainClass": "Divide_and_conqure.BSTFromArray.BSTFromArray",
