@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InterleavingString",
+            "request": "launch",
+            "mainClass": "DP.InterleavingString.InterleavingString",
+            "projectName": "Programming_2024_1eea15f5"
+        },
+        {
+            "type": "java",
+            "name": "LongestPalindromicSubSeq",
+            "request": "launch",
+            "mainClass": "DP.LongestPalindromicSub.LongestPalindromicSubSeq",
+            "projectName": "Programming_2024_1eea15f5"
+        },
+        {
+            "type": "java",
+            "name": "LongestPalindromicSub",
+            "request": "launch",
+            "mainClass": "DP.LongestPalindromicSub.LongestPalindromicSub",
+            "projectName": "Programming_2024_1eea15f5"
+        },
+        {
+            "type": "java",
             "name": "UniquePathsDp",
             "request": "launch",
             "mainClass": "DP.uniquePaths.UniquePathsDp",
