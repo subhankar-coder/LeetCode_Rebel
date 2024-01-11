@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxSumCircularSubArray",
+            "request": "launch",
+            "mainClass": "MaxSumCircularSubArray.MaxSumCircularSubArray",
+            "projectName": "Programming_2024_1eea15f5"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubArraySum",
+            "request": "launch",
+            "mainClass": "MaxSubArraySum",
+            "projectName": "Programming_2024_1eea15f5"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubArraySum",
+            "request": "launch",
+            "mainClass": "MaxSubArraySumJava.MaxSubArraySum",
+            "projectName": "Programming_2024_1eea15f5"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubArraySum",
+            "request": "launch",
+            "mainClass": "MaxSubArraySum.MaxSubArraySum",
+            "projectName": "Programming_2024_1eea15f5"
+        },
+        {
+            "type": "java",
             "name": "InterleavingString",
             "request": "launch",
             "mainClass": "DP.InterleavingString.InterleavingString",
