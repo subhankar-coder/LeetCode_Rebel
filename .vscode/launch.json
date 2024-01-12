@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstAndLastEleBT",
+            "request": "launch",
+            "mainClass": "FirstAndLastEleInAnArray.FirstAndLastEleBT",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "FindEleInRotatedArray",
+            "request": "launch",
+            "mainClass": "FindEleInRotatedArray.FindEleInRotatedArray",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "PeakElementBS",
+            "request": "launch",
+            "mainClass": "PeakElementBinarySearch.PeakElementBS",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "MaxSquareSubMatrix",
+            "request": "launch",
+            "mainClass": "DP.MaxSquareSubMatrix.MaxSquareSubMatrix",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "EditDistanceDp",
+            "request": "launch",
+            "mainClass": "DP.EditDistance.EditDistanceDp",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "EditDistance",
+            "request": "launch",
+            "mainClass": "DP.EditDistance.EditDistance",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "SearchIn2D",
             "request": "launch",
             "mainClass": "SearchIn2D.SearchIn2D",
