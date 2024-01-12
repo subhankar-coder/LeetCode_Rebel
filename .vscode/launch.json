@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxSubArraySum",
+            "request": "launch",
+            "mainClass": "MaxSubArraySum",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "MaxSumCircularSubArray",
+            "request": "launch",
+            "mainClass": "MaxSumCircularSubArray.MaxSumCircularSubArray",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "MaxSumCircularSubArray",
             "request": "launch",
             "mainClass": "MaxSumCircularSubArray.MaxSumCircularSubArray",

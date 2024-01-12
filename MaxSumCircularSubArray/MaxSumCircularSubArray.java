@@ -2,26 +2,26 @@ package MaxSumCircularSubArray;
 
 public class MaxSumCircularSubArray {
     public static void main(String[] args) {
-        int [] array={-5,3,5};
-        int n=array.length;
-        int max=Integer.MIN_VALUE;
-        for(int i=0;i<n;i++){
-            max=Math.max(max,array[i]);
-            int min=array[i];
-            int [] sumArray=new int [n];
-            sumArray[0]=array[i];
-            int j=(i+1)%n;
-            int k=1;
-            while(j!=i && k<n){
-                max=Math.max(max,sumArray[k-1]+array[j]);
-                sumArray[k]=sumArray[k-1]+array[j];
-                max=Math.max(max,sumArray[k]-min);
-                min=Math.min(min,sumArray[k]);
-                k++;
-                j=(j+1)%n;
-            }
+        int [] array={9,-4,-7,9};
+        int n= array.length;
+        int sum=array[0];
+        int max_till_now=array[0];
+        int min_till_now=array[0];
+        int max_overall=array[0];
+        int min_overall=array[0];
+
+        for(int i=1;i<n;i++){
+            sum+=array[i];
+            max_till_now=Math.max(max_till_now+array[i],array[i] );
+            max_overall=Math.max(max_overall, max_till_now);
+            min_till_now=Math.min(min_till_now+array[i], array[i]);
+            min_overall=Math.min(min_till_now, min_overall);
         }
-        System.out.println(max);
+
+        
+        if(min_overall==sum)
+            System.out.println(max_overall);
+        System.out.println(Math.max(max_overall, sum-min_overall));
     }
     
 }
