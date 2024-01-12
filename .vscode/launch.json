@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SearchIn2D",
+            "request": "launch",
+            "mainClass": "SearchIn2D.SearchIn2D",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "MaxSubArraySum",
             "request": "launch",
             "mainClass": "MaxSubArraySum",
