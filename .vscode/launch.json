@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindMinRotatedArray",
+            "request": "launch",
+            "mainClass": "FindMinRotatedArray.FindMinRotatedArray",
+            "projectName": "LeetCode_Rebel_98868b26"
+        },
+        {
+            "type": "java",
             "name": "FirstAndLastEleBT",
             "request": "launch",
             "mainClass": "FirstAndLastEleInAnArray.FirstAndLastEleBT",
