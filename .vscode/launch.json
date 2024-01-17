@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IPODoubleHeap",
+            "request": "launch",
+            "mainClass": "Heap_Sort.IPO.IPODoubleHeap",
+            "projectName": "LeetCode_Rebel_8761adcd"
+        },
+        {
+            "type": "java",
+            "name": "IPO",
+            "request": "launch",
+            "mainClass": "Heap_Sort.IPO.IPO",
+            "projectName": "LeetCode_Rebel_8761adcd"
+        },
+        {
+            "type": "java",
+            "name": "SumOfBitString",
+            "request": "launch",
+            "mainClass": "SumOfBitString.SumOfBitString",
+            "projectName": "LeetCode_Rebel_8761adcd"
+        },
+        {
+            "type": "java",
             "name": "MedianTwoSortedArray",
             "request": "launch",
             "mainClass": "MedianTwoSortedArray.MedianTwoSortedArray",
