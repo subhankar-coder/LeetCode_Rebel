@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KSmallestPairs",
+            "request": "launch",
+            "mainClass": "Heap_Sort.KSmallestPair.KSmallestPairs",
+            "projectName": "LeetCode_Rebel_8761adcd"
+        },
+        {
+            "type": "java",
             "name": "IPODoubleHeap",
             "request": "launch",
             "mainClass": "Heap_Sort.IPO.IPODoubleHeap",
