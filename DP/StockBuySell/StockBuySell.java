@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class StockBuySell {
 
     public static void main(String[] args) {
-        // int prices [] = {3,3,5,0,0,3,1,4};
-        int [] prices={1,2,3,4,5};
+        // int prices [] = {1,2,3,4,5};
+        int [] prices={3,2,6,5,0,3};
         int n = prices.length;
 
         int [][] dp = new int [n][n];
@@ -37,7 +37,43 @@ public class StockBuySell {
         // for(int [] arr:dp){
         //     System.out.println(Arrays.toString(arr));
         // }
-        System.out.println(maxProfit);
+        // System.out.println(maxProfit);
+        getMaxReturn(prices,n);
+    }
+
+    public static void getMaxReturn(int [] prices,int n ){
+        int [] dp = new int [n];
+        int maxProfit = 0;
+        int maxProfitUpto= 0;
+        int smallest = 0;
+        int smallestDp =0;
+        int lastDep=0;
+        dp[0]=0;
+
+        for(int i=1;i<n;i++){
+            for(int j=0;j<i;j++){
+                maxProfitUpto= Math.max(maxProfitUpto, dp[j]);
+                maxProfitUpto=Math.max(maxProfitUpto, prices[i]-prices[j]);
+                maxProfit=Math.max(maxProfit, dp[j]+(prices[i]-prices[j]));
+                dp[i]=maxProfitUpto;
+            }
+        }
+
+        int s1=-prices[0];
+        int s2=Integer.MIN_VALUE;
+        int s3 = Integer.MIN_VALUE;
+        int s4=Integer.MIN_VALUE;
+
+        for(int i=1;i<prices.length;i++){
+            s1=Math.max(s1,-prices[i]);
+            s2=Math.max(s2,s1+prices[i]);
+            s3=Math.max(s3,s2-prices[i]);
+            s4=Math.max(s4,s3+prices[i]);
+        
+            // if(prices[i]-prices[smallestDp] < )
+            
+        }
+        System.out.println(s4);
     }
     
 }
