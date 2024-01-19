@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StockBuySell",
+            "request": "launch",
+            "mainClass": "DP.StockBuySell.StockBuySell",
+            "projectName": "LeetCode_Rebel_8761adcd"
+        },
+        {
+            "type": "java",
+            "name": "MedianFinder",
+            "request": "launch",
+            "mainClass": "Heap_Sort.MedianFinder.MedianFinder",
+            "projectName": "LeetCode_Rebel_8761adcd"
+        },
+        {
+            "type": "java",
             "name": "KSmallestPairs",
             "request": "launch",
             "mainClass": "Heap_Sort.KSmallestPair.KSmallestPairs",
