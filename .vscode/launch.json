@@ -6,6 +6,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WildCardMatching",
+            "request": "launch",
+            "mainClass": "DP.WildCardMatching.WildCardMatching",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "LongestValidParentheses",
+            "request": "launch",
+            "mainClass": "Dp.LongestValidParentheses.LongestValidParentheses"
+        },
+        {
+            "type": "java",
             "name": "ArrayExceptSelft",
             "request": "launch",
             "mainClass": "Array.ArrayExceptSelf.ArrayExceptSelft",
