@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UniquePaths",
+            "request": "launch",
+            "mainClass": "DP.Uniquepaths.UniquePaths",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "WildCardMatching",
             "request": "launch",
             "mainClass": "DP.WildCardMatching.WildCardMatching",
