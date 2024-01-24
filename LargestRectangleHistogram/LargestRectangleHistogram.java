@@ -4,7 +4,8 @@ import java.util.*;
 public class LargestRectangleHistogram {
     public static void main(String[] args) {
         
-        int [] heights={10,10,4,8,12,13,3,14,8,16,6,12,7,19,17,2,2,11,10,12};
+        // int [] heights={10,10,4,8,12,13,3,14,8,16,6,12,7,19,17,2,2,11,10,12};
+        int [] heights={2,1,5,6,2,3};
         int n = heights.length;
         int area = heights[0];
 
@@ -33,7 +34,56 @@ public class LargestRectangleHistogram {
                 stack.add(new Histogram(i, heights[i]));
             }
         }
-        System.out.println(area);
+        // System.out.println(area);
+        largestRectangleArea(heights);
+    }
+    public static int largestRectangleArea(int[] heights) {
+        
+        int n = heights.length;
+        int []leftMin = new int[n];
+        int []rightMin= new int[n];
+        Stack<Integer> st = new Stack<>();
+        for(int i=0;i<n;i++){
+            if(st.isEmpty()){
+                leftMin[i]=0;
+                st.push(i);
+            }else{
+                while (!st.isEmpty() && heights[st.peek()]>=heights[i]) {
+                    st.pop();
+                }
+                if(st.isEmpty()){
+                    leftMin[i]=0;
+                    st.push(i);
+                }else{
+                    leftMin[i]=st.peek()+1;
+                    st.push(i);
+                }
+            }
+        }
+        st.clear();
+        for(int i=n-1;i>=0;i--){
+            if(st.isEmpty()){
+                rightMin[i]=n-1;
+                st.push(i);
+            }else{
+                while(!st.isEmpty() && heights[st.peek()]>=heights[i]){
+                    st.pop();
+                }
+                if(st.isEmpty()){
+                    rightMin[i]=n-1;
+                    st.push(i);
+                }else{
+                    rightMin[i]=st.peek()-1;
+                    st.push(i);
+                }
+            }
+        }
+        int maxArea=0;
+        for(int i=0;i<n;i++){
+            maxArea=Math.max(maxArea, heights[i]*(rightMin[i]-leftMin[i]+1));
+        }
+        System.out.println(maxArea);
+        return 0;
     }    
 }
 
