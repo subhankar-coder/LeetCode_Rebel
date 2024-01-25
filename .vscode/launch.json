@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindDuplicate",
+            "request": "launch",
+            "mainClass": "FindDuplicate.FindDuplicate",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "SearchDuplicate",
+            "request": "launch",
+            "mainClass": "SearchDuplicate.SearchDuplicate",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubSeqScore",
+            "request": "launch",
+            "mainClass": "MaxSubSeqScore.MaxSubSeqScore",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "LargestRectangleHistogram",
             "request": "launch",
             "mainClass": "LargestRectangleHistogram.LargestRectangleHistogram",
