@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DecodeWaysDp",
+            "request": "launch",
+            "mainClass": "DP.DecodeWays.DecodeWaysDp",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "DecodeWays",
+            "request": "launch",
+            "mainClass": "DP.DecodeWays.DecodeWays",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "ScrambledString",
+            "request": "launch",
+            "mainClass": "DP.ScrambledString.ScrambledString",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "FindDuplicate",
             "request": "launch",
             "mainClass": "FindDuplicate.FindDuplicate",
