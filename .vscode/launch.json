@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PascalsTriangle",
+            "request": "launch",
+            "mainClass": "DP.PascalsTriangle.PascalsTriangle",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "DistinctSubSequence",
             "request": "launch",
             "mainClass": "DP.DistinctSubSequence.DistinctSubSequence",
