@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DistinctSubSequence",
+            "request": "launch",
+            "mainClass": "DP.DistinctSubSequence.DistinctSubSequence",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "NthCatalanNumber",
+            "request": "launch",
+            "mainClass": "DP.NthCatalanNumber.NthCatalanNumber",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "UniqueBST",
+            "request": "launch",
+            "mainClass": "DP.UniqueBST.UniqueBST",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "DecodeWaysDp",
             "request": "launch",
             "mainClass": "DP.DecodeWays.DecodeWaysDp",
