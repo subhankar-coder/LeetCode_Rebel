@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AllPalindromePartition",
+            "request": "launch",
+            "mainClass": "DP.AllPalindromePartition.AllPalindromePartition",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "PascalsTriangle",
             "request": "launch",
             "mainClass": "DP.PascalsTriangle.PascalsTriangle",
