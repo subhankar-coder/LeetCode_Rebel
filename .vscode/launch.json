@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinPalindromicCutDp",
+            "request": "launch",
+            "mainClass": "DP.MinPalindromicCut.MinPalindromicCutDp",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "MinPalindromicCut",
+            "request": "launch",
+            "mainClass": "DP.MinPalindromicCut.MinPalindromicCut",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "AllPalindromePartition",
             "request": "launch",
             "mainClass": "DP.AllPalindromePartition.AllPalindromePartition",
