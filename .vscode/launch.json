@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DungeonGame",
+            "request": "launch",
+            "mainClass": "DungeonGame",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "MaxSubArrayMultiplication",
             "request": "launch",
             "mainClass": "DP.MaxSubArrayMultiplication.MaxSubArrayMultiplication",
