@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HouseRobberII",
+            "request": "launch",
+            "mainClass": "DP.HouseRobberII.HouseRobberII",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "DungeonGame",
             "request": "launch",
             "mainClass": "DungeonGame",
