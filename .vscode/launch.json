@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberOfDigitOne",
+            "request": "launch",
+            "mainClass": "DP.NumberOfDigitOne.NumberOfDigitOne",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "LongestIncreasingSubSeq",
+            "request": "launch",
+            "mainClass": "DP.LongestIncSubSeq.LongestIncreasingSubSeq",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "HouseRobberII",
             "request": "launch",
             "mainClass": "DP.HouseRobberII.HouseRobberII",
