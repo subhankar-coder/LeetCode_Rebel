@@ -15,18 +15,24 @@ package DP.DifferrentWayToPutParentheses;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class DifferentWaysToAddParentheses {
   static int N;
+  static HashMap<String,List<Integer>> map;
     public static void main(String[] args) {
-         String expression = "2*3-4*15";
+         String expression = "2*3-4*5";
          int len = expression.length();
          N=len;
+         map=new HashMap<>();
          System.out.println((solve(expression)));
     }
     public static List<Integer> solve(String expression){
        int n = expression.length();
+
+       if(map.containsKey(expression))
+            return map.get(expression);
        List<Integer> res=new ArrayList<>();
        if(n==1)
             return Arrays.asList(Integer.valueOf(expression.substring(0,1)));
@@ -50,6 +56,7 @@ public class DifferentWaysToAddParentheses {
             }
 
         }
+        map.put(expression,res);
         return res;
     }
     public static int operation(int num1,int num2 , String  operands){
