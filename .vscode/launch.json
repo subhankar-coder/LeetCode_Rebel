@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DifferentWaysToAddParentheses",
+            "request": "launch",
+            "mainClass": "DP.DifferrentWayToPutParentheses.DifferentWaysToAddParentheses",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "NumberOfDigitOne",
             "request": "launch",
             "mainClass": "DP.NumberOfDigitOne.NumberOfDigitOne",
