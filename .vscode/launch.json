@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestIncPathMatrix",
+            "request": "launch",
+            "mainClass": "DP.LongestIncPathInMatrix.LongestIncPathMatrix",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "SuperUglyNumber",
+            "request": "launch",
+            "mainClass": "DP.SuperUglyNumber.SuperUglyNumber",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "BurstBallons",
+            "request": "launch",
+            "mainClass": "DP.BurstBallons.BurstBallons",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "DP.ReverseString.ReverseString",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeToBuyAndSellStockCoolDown",
+            "request": "launch",
+            "mainClass": "DP.BestTimeToBuyAndSellStockCooldown.BestTimeToBuyAndSellStockCoolDown",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "PerfectSquare",
+            "request": "launch",
+            "mainClass": "DP.PerfectSquare.PerfectSquare",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "UglyNumberII",
+            "request": "launch",
+            "mainClass": "DP.UglyNumberII.UglyNumberII",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "DifferentWaysToAddParentheses",
             "request": "launch",
             "mainClass": "DP.DifferrentWayToPutParentheses.DifferentWaysToAddParentheses",
