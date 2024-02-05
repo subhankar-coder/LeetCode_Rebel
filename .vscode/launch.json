@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RussianDoll",
+            "request": "launch",
+            "mainClass": "DP.RussianDoll.RussianDoll",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "IntegerBreak",
+            "request": "launch",
+            "mainClass": "DP.IntegerBreak.IntegerBreak",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "HouseRobberIII",
+            "request": "launch",
+            "mainClass": "DP.HouseRobberIII.HouseRobberIII",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "AllTopologicalSort",
+            "request": "launch",
+            "mainClass": "Graph.AllTopologicalSort.AllTopologicalSort",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "TopologicalSort",
+            "request": "launch",
+            "mainClass": "Graph.TopologicalSort.TopologicalSort",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "LongestIncPathMatrix",
             "request": "launch",
             "mainClass": "DP.LongestIncPathInMatrix.LongestIncPathMatrix",
