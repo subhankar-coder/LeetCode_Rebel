@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestWiggleSeq",
+            "request": "launch",
+            "mainClass": "DP.LongestWiggleSeq.LongestWiggleSeq",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "GuessNumberHigherII",
+            "request": "launch",
+            "mainClass": "DP.GuessNumberHigherII.GuessNumberHigherII",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "LargestDivisableSubset",
+            "request": "launch",
+            "mainClass": "DP.LargestDivisableSubset.LargestDivisableSubset",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "UniqueDigits",
+            "request": "launch",
+            "mainClass": "DP.UniqueDigits.UniqueDigits",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "RussianDoll",
             "request": "launch",
             "mainClass": "DP.RussianDoll.RussianDoll",
