@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CombinationalSumIV",
+            "request": "launch",
+            "mainClass": "DP.CombinationalSumIV.CombinationalSumIV",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "LongestWiggleSeq",
             "request": "launch",
             "mainClass": "DP.LongestWiggleSeq.LongestWiggleSeq",
