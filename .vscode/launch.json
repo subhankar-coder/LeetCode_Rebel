@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestArithmaticSubSeq",
+            "request": "launch",
+            "mainClass": "DP.LongestArithmaticSubSeq.LongestArithmaticSubSeq",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "SplitArrayLargestSum",
+            "request": "launch",
+            "mainClass": "DP.SplitArrayLargestSum.SplitArrayLargestSum",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "ArithmaticSliceSubSeq",
+            "request": "launch",
+            "mainClass": "DP.ArithmaticSliceSubSeq.ArithmaticSliceSubSeq",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "MergeIntervals",
+            "request": "launch",
+            "mainClass": "DP.MergeIntervals.MergeIntervals",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "PartitionEqualSum",
+            "request": "launch",
+            "mainClass": "DP.PartitionEqualSum.PartitionEqualSum",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "ArithmaticSliceI",
+            "request": "launch",
+            "mainClass": "DP.ArithmaticSlice.ArithmaticSliceI",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "FrogJump",
+            "request": "launch",
+            "mainClass": "DP.FrogJump.FrogJump",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "LongestValidParentheses",
+            "request": "launch",
+            "mainClass": "DP.LongestValidParentheses.LongestValidParentheses",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "IntegerReplacement",
+            "request": "launch",
+            "mainClass": "DP.IntegerReplacement.IntegerReplacement",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "RotateFunction",
+            "request": "launch",
+            "mainClass": "DP.RotateFunction.RotateFunction",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "CombinationalSumIV",
             "request": "launch",
             "mainClass": "DP.CombinationalSumIV.CombinationalSumIV",

@@ -1,4 +1,4 @@
-package Dp.LongestValidParentheses;
+package DP.LongestValidParentheses;
 
 import java.util.Stack;
 

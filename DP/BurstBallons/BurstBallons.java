@@ -8,7 +8,7 @@ public class BurstBallons {
 
      public static void main(String[] args) {
         
-        int [] array = {5,2,6,9};
+        int [] array = {4,3,2,6};
         int n = array.length;
         // List<Integer> list = Stream.concat(Stream.concat(Stream.of(1), Arrays.stream(array).boxed()),Stream.of(1)).mapToInt(i->i).boxed().collect(Collectors.toList());
         // System.out.println(list);
