@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class LongestPalindromicSubSeq{
     public static void main(String[] args) {
-        String str = "babad";
+        String str = "bbbab";
         int n=str.length();
         int [][] graph = new int[n][n];
         String maxString =String.valueOf(str.charAt(0));
@@ -36,7 +36,7 @@ public class LongestPalindromicSubSeq{
                 }
             }
         }
-        System.out.println(maxString);
+        System.out.println(maxLen);
         //print the graph
         for (int [] arr:graph){
             System.out.println(Arrays.toString(arr));

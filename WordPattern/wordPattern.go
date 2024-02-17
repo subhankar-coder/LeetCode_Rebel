@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 )
-
+ 
 func main() {
 
 	var pattern string = "abba"

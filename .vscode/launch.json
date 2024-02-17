@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountTheRepetations",
+            "request": "launch",
+            "mainClass": "DP.CountTheRepetations.CountTheRepetations",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "PredictWinner",
+            "request": "launch",
+            "mainClass": "DP.PredictWinner.PredictWinner",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "CanIWin",
+            "request": "launch",
+            "mainClass": "DP.CanIWin.CanIWin",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "LongestArithmaticSubSeq",
             "request": "launch",
             "mainClass": "DP.LongestArithmaticSubSeq.LongestArithmaticSubSeq",

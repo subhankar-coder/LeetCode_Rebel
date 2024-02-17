@@ -2,8 +2,11 @@ package Array.ArrayExceptSelf;
 import java.util.*;
 
 public class ArrayExceptSelft {
+
     public static void main(String[] args) {
+
         int [] array = {-1,1,0,-3,3};
+        
         int len= array.length;
         int upIndex=1;
         int downIndex=1;
