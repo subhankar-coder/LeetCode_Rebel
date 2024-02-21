@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstMissingPositive",
+            "request": "launch",
+            "mainClass": "FirstMissingPositive.FirstMissingPositive",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "BitwiseAndOfRange",
+            "request": "launch",
+            "mainClass": "BitwiseAndOfRange.BitwiseAndOfRange",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "CountTheRepetations",
             "request": "launch",
             "mainClass": "DP.CountTheRepetations.CountTheRepetations",
