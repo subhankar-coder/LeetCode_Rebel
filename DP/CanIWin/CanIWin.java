@@ -3,34 +3,30 @@ package DP.CanIWin;
 import java.util.*;
 
 public class CanIWin {
-    static List<Integer> dict;
+   static int [] dict;
     public static void main(String[] args) {
         
-        int maxChoosableInteger=10;
-        int desiredTotal=40;
+        int maxChoosableInteger=5;
+        int desiredTotal=50;
 
-        dict= new ArrayList<>();
-        for(int i=1;i<=maxChoosableInteger;i++){
-            dict.add(i);
+        dict= new int [maxChoosableInteger+1];
+        for(int i=0;i<=maxChoosableInteger;i++){
+            dict[i]=i;
         }
-        System.out.println(solve(maxChoosableInteger, desiredTotal, true));
+        System.out.println(solve(maxChoosableInteger,0, desiredTotal, 0));
     }
-    public static boolean solve(int maxChoosableInteger,int desiredTotal,boolean firstPlayer){
-        if(firstPlayer && dict.stream().filter(i->i>=desiredTotal).count()>=1)
-            return true;
-
-        if(!firstPlayer && dict.stream().filter(i->i>=desiredTotal).count()>=1)
-            return false;
-
-        for(int i=maxChoosableInteger;i>=1;i--){
-            if(dict.contains(i)){
-                dict.remove(dict.indexOf(i));
-                if(solve(maxChoosableInteger, desiredTotal-i, !firstPlayer)){
-                    return true;
+    public static boolean solve(int maxChoosableInteger,int currentTotal ,int desiredTotal,int state){
+    //    if(Arrays.stream(dict).filter(i->i>=(desiredTotal-currentTotal)).count()>0)
+    //         return firstPlayer;
+        boolean canWin =false;
+        for(int i=1;i<=maxChoosableInteger;i++){
+            if(((state>>i)&1)==0){
+                if(currentTotal+i>=desiredTotal || !solve(maxChoosableInteger, currentTotal+i, desiredTotal, state | (1<<i))){
+                    canWin=true;
+                    break;
                 }
-                dict.add(i);
             }
         }
-        return false;
+        return canWin   ;
     }
 }
