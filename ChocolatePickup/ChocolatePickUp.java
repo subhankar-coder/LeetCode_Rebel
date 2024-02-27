@@ -68,7 +68,7 @@ public class ChocolatePickUp{
 			max=Math.max(max,aliceSum+bobSum);
 			System.out.println(" bob "+bobRow+"  "+bobCol+" "+bobSum);
 	}
-	public  int solveDp(int [][] grid,int chocolateRow,int aliceCol,int bobCol){
+	public static  int solveDp(int [][] grid,int chocolateRow,int aliceCol,int bobCol){
 			
 			if(chocolateRow>=R || aliceCol>=C || bobCol>=C || aliceCol<0 || bobCol<0)
 			    return 0;
@@ -89,7 +89,7 @@ public class ChocolatePickUp{
 			}
 			return dp[chocolateRow][aliceCol][bobCol]=(ans +res);
 	}
-	public  int getChocolate(int grid [][] ,int chocolateRow,int aliceCol,int bobCol ){
+	public static  int getChocolate(int grid [][] ,int chocolateRow,int aliceCol,int bobCol ){
 
 		if(aliceCol==bobCol )
 		    return grid[chocolateRow][aliceCol];

@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "LongestCommonPrefix.LongestCommonPrefix",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "LCSTwoString",
+            "request": "launch",
+            "mainClass": "LongestCommonSubSequence.LCSTwoString",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "ChocolatePickUp",
+            "request": "launch",
+            "mainClass": "ChocolatePickup.ChocolatePickUp",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPartitionWithMinDiffMTM",
+            "request": "launch",
+            "mainClass": "ArrayPatitionWithMinDiff.ArrayPartitionWithMinDiffMTM",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "AllPossibleSums",
+            "request": "launch",
+            "mainClass": "AllPossibleSums.AllPossibleSums",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "AllocateBooks",
             "request": "launch",
             "mainClass": "AllocateBooks.AllocateBooks",
