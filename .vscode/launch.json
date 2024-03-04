@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BurnBinaryTree",
+            "request": "launch",
+            "mainClass": "BurnBinaryTree.BurnBinaryTree",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
+            "name": "BoundaryTravershal",
+            "request": "launch",
+            "mainClass": "BoundaryTravershal.BoundaryTravershal",
+            "projectName": "Programming_2024_4175d8e1"
+        },
+        {
+            "type": "java",
             "name": "LongestCommonPrefix",
             "request": "launch",
             "mainClass": "LongestCommonPrefix.LongestCommonPrefix",

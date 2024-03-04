@@ -14,6 +14,7 @@ public class TreeNode {
       public void printTreeIn2D(){
         Main.TreePrinter(this);
       }
+      
   }
   class Main {
  
