@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AllPossibleSums",
+            "request": "launch",
+            "mainClass": "AllPossibleSums.AllPossibleSums",
+            "projectName": "LeetCode_Rebel_832cdecc"
+        },
+        {
+            "type": "java",
             "name": "BurnBinaryTree",
             "request": "launch",
             "mainClass": "BurnBinaryTree.BurnBinaryTree",
