@@ -44,25 +44,20 @@ func main() {
 	n := len(grid)
 	bfs := make([][]int, n)
 
+	queue := [][]int{}
 	for i := 0; i < n; i++ {
 		bfs[i] = make([]int, n)
 		for j := 0; j < n; j++ {
 			if grid[i][j] == 1 {
 				bfs[i][j] = 0
+				queue = append(queue, []int{i, j})
 			} else {
 				bfs[i][j] = math.MaxInt
 			}
 
 		}
 	}
-
-	for i := 0; i < n; i++ {
-		for j := 0; j < n; j++ {
-			if grid[i][j] == 1 {
-				performBFS(&bfs, i, j, n)
-			}
-		}
-	}
+	performBFS(&queue,&bfs,n)
 
 	fmt.Println(bfs)
 
@@ -169,44 +164,42 @@ func isPathAvailable(bfs *[][]int, limit int, n int) bool {
 
 }
 
-func performBFS(bfs *[][]int, r int, c int, n int) {
+func performBFS(queue *[][]int, bfs *[][]int, n int) {
 
-	queue := [][]int{}
 	level := 0
 
-	queue = append(queue, []int{r, c})
 	visited := make([][]bool, n)
 	for i := 0; i < n; i++ {
 		visited[i] = make([]bool, n)
 	}
 
-	for len(queue) != 0 {
+	for len(*queue) != 0 {
 
-		length := len(queue)
+		length := len(*queue)
 
 		for i := 0; i < length; i++ {
 
-			row := queue[0][0]
-			col := queue[0][1]
+			row := (*queue)[0][0]
+			col := (*queue)[0][1]
 
-			queue = queue[1:]
+			*queue = (*queue)[1:]
 			if isSafe(&visited, row+1, col, n) {
-				queue = append(queue, []int{row + 1, col})
+				*queue = append(*queue, []int{row + 1, col})
 				(*bfs)[row+1][col] = min((*bfs)[row+1][col], level+1)
 			}
 
 			if isSafe(&visited, row-1, col, n) {
-				queue = append(queue, []int{row - 1, col})
+				*queue = append(*queue, []int{row - 1, col})
 				(*bfs)[row-1][col] = min((*bfs)[row-1][col], level+1)
 			}
 
 			if isSafe(&visited, row, col+1, n) {
-				queue = append(queue, []int{row, col + 1})
+				*queue = append(*queue, []int{row, col + 1})
 				(*bfs)[row][col+1] = min((*bfs)[row][col+1], level+1)
 			}
 
 			if isSafe(&visited, row, col-1, n) {
-				queue = append(queue, []int{row, col - 1})
+				*queue = append(*queue, []int{row, col - 1})
 				(*bfs)[row][col-1] = min((*bfs)[row][col-1], level+1)
 			}
 		}
