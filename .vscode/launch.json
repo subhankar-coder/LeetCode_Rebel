@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SplitArrayWithSameAvg",
+            "request": "launch",
+            "mainClass": "SplitArrayWithSameAvg.SplitArrayWithSameAvg",
+            "projectName": "LeetCode_Rebel_fb13cd6c"
+        },
+        {
+            "type": "java",
+            "name": "WaysToArrangeBalls",
+            "request": "launch",
+            "mainClass": "WaysToArrangeBalls.WaysToArrangeBalls",
+            "projectName": "LeetCode_Rebel_fb13cd6c"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPartitionWithMinDiff",
+            "request": "launch",
+            "mainClass": "ArrayPartitionWithMinDiff.ArrayPartitionWithMinDiff",
+            "projectName": "LeetCode_Rebel_fb13cd6c"
+        },
+        {
+            "type": "java",
             "name": "AllPossibleSums",
             "request": "launch",
             "mainClass": "AllPossibleSums.AllPossibleSums",
