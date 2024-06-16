@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SmallestAfterSelf",
+            "request": "launch",
+            "mainClass": "SmallestAfterSelf.SmallestAfterSelf",
+            "projectName": "LeetCode_Rebel_832cdecc"
+        },
+        {
+            "type": "java",
             "name": "SplitArrayWithSameAvg",
             "request": "launch",
             "mainClass": "SplitArrayWithSameAvg.SplitArrayWithSameAvg",
