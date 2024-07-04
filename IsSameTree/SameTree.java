@@ -1,4 +1,4 @@
-package SameTree;
+package IsSameTree;
 
 import TreeNode.TreeNode;
 

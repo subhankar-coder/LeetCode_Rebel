@@ -1,4 +1,6 @@
-package KthEleOfTwoSortedArrays;
+package KthEleOfTwoSortedArraays;
+
+import java.util.*;
 
 public class KthEleOfTwoSortedArrays{
 	public static void main(String[] args) {

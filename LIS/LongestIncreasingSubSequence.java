@@ -1,4 +1,4 @@
-package LongestIncreasingSubSequence;
+package LIS;
 
 
 import java.util.*;

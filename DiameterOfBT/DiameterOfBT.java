@@ -1,6 +1,6 @@
 package DiameterOfBT;
 
-import java.uti.*;
+import java.util.*;
 
 public class DiameterOfBT{
     static int res = Integer.MIN_VALUE;

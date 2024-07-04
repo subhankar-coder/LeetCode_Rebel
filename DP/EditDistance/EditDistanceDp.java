@@ -1,4 +1,4 @@
-package DP.EditDistance;
+package EditDistance;
 
 import java.util.Arrays;
 

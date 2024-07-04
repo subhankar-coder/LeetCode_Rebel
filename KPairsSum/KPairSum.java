@@ -1,4 +1,4 @@
-package KPairSum;
+package KPairsSum;
 
 import java.util.*;
 

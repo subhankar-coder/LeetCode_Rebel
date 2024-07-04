@@ -1,4 +1,4 @@
-package ValidParenthesis;
+package ValidParentheses;
 
 import java.util.*;
 

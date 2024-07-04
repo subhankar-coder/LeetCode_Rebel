@@ -1,4 +1,4 @@
-package GCDTravershal;
+package GCDTraversal;
 
 
 import java.util.*;

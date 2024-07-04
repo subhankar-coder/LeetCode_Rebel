@@ -1,5 +1,7 @@
 package MissingNumber;
 
+import java.util.*;
+
 public class MissingNumber{
 	public static void main(String[] args) {
 		

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidParenthesis",
+            "request": "launch",
+            "mainClass": "ValidParentheses.ValidParenthesis",
+            "projectName": "LeetCode_Rebel_8ff91b53"
+        },
+        {
+            "type": "java",
             "name": "ArithmaticSliceI",
             "request": "launch",
             "mainClass": "DP.ArithmaticSlice.ArithmaticSliceI",
@@ -37,7 +44,6 @@
             "name": "ArrayPartitionWithMinDiff",
             "request": "launch",
             "mainClass": "ArrayPartitionWithMinDiff.ArrayPartitionWithMinDiff",
-
             "projectName": "LeetCode_Rebel_fb13cd6c"
         },
         {

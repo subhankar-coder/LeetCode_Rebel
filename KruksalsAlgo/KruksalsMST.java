@@ -1,4 +1,4 @@
-package KruksalsMST;
+package KruksalsAlgo;
 
 import java.util.*;
 

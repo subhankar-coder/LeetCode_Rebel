@@ -1,4 +1,4 @@
-package BoxStackingSingleInstanceOfBox;
+package BoxStackingProblem;
 
 import java.util.*;
 

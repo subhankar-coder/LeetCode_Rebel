@@ -1,4 +1,4 @@
-package MinTapsToWaterGraden;
+package MinTapsToWaterGarden;
 
 import java.util.*;
 
