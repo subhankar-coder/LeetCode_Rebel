@@ -5,10 +5,10 @@ import java.util.*;
 public class AllocateBooks{
 
 	public static void main(String[] args) {
-		int [] times= {3,8};
+		int [] times= {12, 34, 67, 90};
 		// Arrays.sort(times);
-		int n = 1;
-		int m =  2;
+		int n = 2;
+		int m =  times.length;
 
 		long sum =0;
 		for(int i=0;i<m;i++)
