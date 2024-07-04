@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class AggressiveCows{
 	public static void main(String[] args) {
-		
+
 		int [] stalls = new int []{10 ,1 ,2 ,7 ,5};
 		int n = stalls.length;
 		int k = 3;

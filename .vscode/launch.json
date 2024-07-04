@@ -13,24 +13,39 @@
         },
         {
             "type": "java",
+            "name": "SmallestAfterSelf",
+            "request": "launch",
+            "mainClass": "SmallestAfterSelf.SmallestAfterSelf",
+            "projectName": "LeetCode_Rebel_832cdecc"
+        },
+        {
+            "type": "java",
+            "name": "SplitArrayWithSameAvg",
+            "request": "launch",
+            "mainClass": "SplitArrayWithSameAvg.SplitArrayWithSameAvg",
+            "projectName": "LeetCode_Rebel_fb13cd6c"
+        },
+        {
+            "type": "java",
+            "name": "WaysToArrangeBalls",
+            "request": "launch",
+            "mainClass": "WaysToArrangeBalls.WaysToArrangeBalls",
+            "projectName": "LeetCode_Rebel_fb13cd6c"
+        },
+        {
+            "type": "java",
             "name": "ArrayPartitionWithMinDiff",
             "request": "launch",
             "mainClass": "ArrayPartitionWithMinDiff.ArrayPartitionWithMinDiff",
-            "projectName": "LeetCode_Rebel_edc9526"
+
+            "projectName": "LeetCode_Rebel_fb13cd6c"
         },
         {
             "type": "java",
-            "name": "AggressiveCows",
+            "name": "AllPossibleSums",
             "request": "launch",
-            "mainClass": "AggressiveCows.AggressiveCows",
-            "projectName": "LeetCode_Rebel_edc9526"
-        },
-        {
-            "type": "java",
-            "name": "Permutation",
-            "request": "launch",
-            "mainClass": "BackTracking.Beautifulpermuations.Permutation",
-            "projectName": "LeetCode_Rebel_edc9526"
+            "mainClass": "AllPossibleSums.AllPossibleSums",
+            "projectName": "LeetCode_Rebel_832cdecc"
         },
         {
             "type": "java",
