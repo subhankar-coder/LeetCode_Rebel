@@ -1,4 +1,4 @@
-package DP.uniquePaths;
+package DP.UniquepathsI;
 
 public class UniquePathsDp {
     public static void main(String[] args) {
