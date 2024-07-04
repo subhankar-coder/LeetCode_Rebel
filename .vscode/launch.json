@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArithmaticSliceI",
+            "request": "launch",
+            "mainClass": "DP.ArithmaticSlice.ArithmaticSliceI",
+            "projectName": "LeetCode_Rebel_edc9526"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPartitionWithMinDiff",
+            "request": "launch",
+            "mainClass": "ArrayPartitionWithMinDiff.ArrayPartitionWithMinDiff",
+            "projectName": "LeetCode_Rebel_edc9526"
+        },
+        {
+            "type": "java",
+            "name": "AggressiveCows",
+            "request": "launch",
+            "mainClass": "AggressiveCows.AggressiveCows",
+            "projectName": "LeetCode_Rebel_edc9526"
+        },
+        {
+            "type": "java",
+            "name": "Permutation",
+            "request": "launch",
+            "mainClass": "BackTracking.Beautifulpermuations.Permutation",
+            "projectName": "LeetCode_Rebel_edc9526"
+        },
+        {
+            "type": "java",
             "name": "BurnBinaryTree",
             "request": "launch",
             "mainClass": "BurnBinaryTree.BurnBinaryTree",

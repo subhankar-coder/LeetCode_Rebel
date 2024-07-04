@@ -34,21 +34,21 @@ public class AggressiveCows{
 	}
 	public  static boolean getMax(int max,List<Integer> li , int k,int start,int n){
 
-			 if(k==0){
-				return true;
-			}
-			int index =Collections.binarySearch(li,start+max);
+		if(k==0){
+			return true;
+		}
+		int index =Collections.binarySearch(li,start+max);
 
-			if(index==-(n+1)){
-				return false;
-			}
-			int next = index<0 ? li.get(-1*(index+1)):li.get(index);
-			if(getMax(max,li,k-1,next,n)){
-				return true;
-			}
-
+		if(index==-(n+1)){
 			return false;
+		}
+		int next = index<0 ? li.get(-1*(index+1)):li.get(index);
+		if(getMax(max,li,k-1,next,n)){
+			return true;
+		}
+
+		return false;
 
 	}
-
+		
 }

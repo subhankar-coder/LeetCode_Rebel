@@ -8,6 +8,7 @@ import java.util.stream.Stream;
 public class AllPalindromePartition {
 
     static int N;
+    
     static List<List<String>> result; 
     static Map<String,Boolean> map;
     public static void main(String[] args) {
