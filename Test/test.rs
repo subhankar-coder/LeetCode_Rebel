@@ -1,10 +1,12 @@
 fn main(){
-	let array=[1,2,3];
+	let mut array= [1,2,3];
+	let mut vec:Vec<&str> = Vec::new();
 
-	array[0]=0;
+	vec.push("abs");
 
-	for x in array{
-		println!("{x}");
+	for ele in vec{
+		println!("{}",ele);
 	}
-	println!("hello world");
+	let subarray = &array[1..];
+	println!("{:?}",subarray);
 }
