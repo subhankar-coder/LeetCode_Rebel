@@ -7,12 +7,7 @@ set<vector<int>> twosum(vector<int> arr, int start,int end,int K){
     set<vector<int>> res;
     unordered_map<int,int> map;
 
-    int last_ele =-1;
-    // cout<<start<<" ";
-    
-    while(start<end){
-
-        auto it = map.find(arr[start]);
+    auto it= map.find(arr[start]);
         if(it!=map.end()){
             // cout<<it->first<<endl;  
             res.insert({arr[(*map.find(arr[start])).second],arr[start]});
@@ -23,7 +18,7 @@ set<vector<int>> twosum(vector<int> arr, int start,int end,int K){
         }
         // last_ele=arr[start];
         start++;
-    }
+    
     // cout<<endl;
     
     return res;
