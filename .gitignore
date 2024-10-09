@@ -1,2 +1,6 @@
 /.vscode
+<<<<<<< HEAD
+=======
+*.class
+>>>>>>> acda7904f67bb88b2c1eaeac6d37f4ea57aa4a6b
 *.exe
