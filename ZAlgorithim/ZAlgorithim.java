@@ -6,8 +6,8 @@ public class ZAlgorithim{
 
 	public static void main(String[] args) {
 		
-		String s="ccbdcb";
-		String p = "b";
+		String s="baabaa";
+		String p = "aab";
 
 		int n = s.length();
 		int m = p.length();
@@ -42,7 +42,7 @@ public class ZAlgorithim{
 				if(z[k1]+k <= r){
 					z[k]=z[k1];
 				}else{
-					l=k;
+					l=k;	
 					 while(r<len && str.charAt(r)==str.charAt(r-l)){
 					r++;
 				}

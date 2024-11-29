@@ -7,7 +7,7 @@ import (
 
 func main(){
 	
-	str :="bbbab"
+	str :="mbadm"
 	n := len(str)
 
 	dp := make([][]int,n);
