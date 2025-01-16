@@ -9,7 +9,7 @@ void allTwoSum(vector<int>& nums,int start,int end,int target){
     int i=start;
     while(start<end){
       int sum = nums[start]+nums[end];
-      
+
       if(min_val >abs(target-sum)){
         cout<<sum<<" "<<min_val<<" "<<target<<endl;
         min_val=abs(target-sum);
@@ -20,7 +20,7 @@ void allTwoSum(vector<int>& nums,int start,int end,int target){
         start++;
       }else{
         end--;
-      }   
+      }
     }
 
     // MIN = min(MIN,min_val);
