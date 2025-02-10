@@ -26,13 +26,13 @@ vector<int> generateLPS(string &str){
 }
 
 vector<int> search(string &str,int n,string &pattern,int m){
-    
+
     vector<int> lps = generateLPS(pattern);
     vector<int> res ;
 
     int i=0,j=0;
     while(i<n){
-        if(str[i]==str[j]){
+        if(str[i]==pattern[j]){
             i++;
             j++;
             if(j==m){
@@ -51,7 +51,7 @@ vector<int> search(string &str,int n,string &pattern,int m){
 
 }
 int main(){
-    
+
     string str = "aabaacaadaabaaba";
     string pattern = "aaba";
 
@@ -59,5 +59,5 @@ int main(){
     for(auto ele: res){
         cout<<ele<<endl;
     }
-    
+
 }

@@ -19,12 +19,12 @@ int main(){
     }
   }
 
+
   if(len1!=0){
     for(int num: nums2){
       result = result ^num;
     }
   }
-
 
   cout<<result<<endl;
   return 0;
