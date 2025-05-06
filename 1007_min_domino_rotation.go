@@ -1,4 +1,4 @@
-package main
+ package main
 
 import(
 	"fmt"
@@ -21,14 +21,7 @@ func main(){
   func minDominoRotations(tops []int, bottoms []int) int {
 
     var len int = len(tops)
-    // pairs := make([]Pair,len)
-
-	// for i:=0;i<len;i++{
-	// 	pairs[i][0]=tops[i]
-	// 	pairs[i][1]=bottoms[i]
-	// }
-
-	var topCandidate int = tops[0]
+   	var topCandidate int = tops[0]
 	var bottomCandidate int = bottoms[0]
 
 	var topCount int = calculateMinRotation(tops,bottoms,topCandidate,len)
