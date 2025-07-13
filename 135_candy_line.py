@@ -6,7 +6,7 @@ class Solution:
         result[i] = result[i-1]+1 if ratings[i-1]<ratings[i] else 1
       for i in range(n-2,-1,-1):
         result[i] = max(result[i],result[i+1]+1 if ratings[i+1]<ratings[i] else 1)
-        
+
       return sum(result)
 
 if __name__ == "__main__":

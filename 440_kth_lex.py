@@ -7,7 +7,7 @@ class Solution:
                 count += min(end,n+1) - start
                 start *=10
                 end *=10
-            
+
             return count
         curr = 1
         while k >0:
@@ -19,13 +19,8 @@ class Solution:
             else:
                 k-=1
                 curr = curr*10
-        
         return curr
-        
 
-
-
-       
 
 if __name__ == "__main__":
     s = Solution()
